@@ -14,7 +14,7 @@ public class Calificacion
     /**
      * Constructor for objects of class Calificacion
      */
-    public Calificacion(string comentario, int calificacion)
+    public Calificacion(String comentario, int valoracion)
     {
         // initialise instance variables
        this.comentario= comentario;
@@ -27,10 +27,21 @@ public class Calificacion
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public int sampleMethod()
+    public String getComentario()
     {
         // put your code here
-        return 0;
+        return comentario;
+    }
+    /**
+     * An example of a method - replace this comment with your own
+     * 
+     * @param  y   a sample parameter for a method
+     * @return     the sum of x and y 
+     */
+    public int getValoracion()
+    {
+        // put your code here
+        return valoracion;
     }
     
 }
