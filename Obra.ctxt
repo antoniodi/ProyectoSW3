@@ -2,4 +2,12 @@
 comment0.params=habilidad\ elemento
 comment0.target=Obra(java.lang.String,\ java.lang.String)
 comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Obra\r\n
-numComments=1
+comment1.params=
+comment1.target=java.lang.String\ getHabilidad()
+comment2.params=
+comment2.target=java.lang.String\ getElemento()
+comment3.params=habilidad
+comment3.target=void\ setHabilidad(java.lang.String)
+comment4.params=elemento
+comment4.target=void\ setElemento(java.lang.String)
+numComments=5

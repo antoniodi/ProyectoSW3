@@ -21,4 +21,24 @@ public class Obra
         this.elemento=elemento;
     }
 
+    public String getHabilidad()
+    {
+        return habilidad;
+    }
+    
+    public String getElemento()
+    {
+        return elemento;
+    }
+    
+    public void setHabilidad(String habilidad)
+    {
+        this.habilidad=habilidad;
+    }
+    
+    public void setElemento(String elemento)
+    {
+        this.elemento=elemento;
+    }
+    
 }
