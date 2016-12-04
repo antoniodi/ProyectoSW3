@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=promedio\ habilidad
+comment0.target=Destreza(float,\ Habilidad)
+comment1.params=
+comment1.target=float\ getPromedio()
+comment2.params=promedio
+comment2.target=void\ setPromedio(float)
+comment3.params=
+comment3.target=Habilidad\ getHabilidad()
+comment4.params=habilidad
+comment4.target=void\ setHabilidad(Habilidad)
+numComments=5

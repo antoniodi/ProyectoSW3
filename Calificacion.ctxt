@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getValoracion()
+comment1.params=valoracion
+comment1.target=void\ setValoracion(int)
+numComments=2

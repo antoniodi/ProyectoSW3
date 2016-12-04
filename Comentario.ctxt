@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=fecha\ autor\ descripcion
+comment0.target=Comentario(long,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=long\ getFecha()
+comment2.params=fecha
+comment2.target=void\ setFecha(long)
+comment3.params=
+comment3.target=java.lang.String\ getAutor()
+comment4.params=autor
+comment4.target=void\ setAutor(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getDescripcion()
+comment6.params=descripcion
+comment6.target=void\ setDescripcion(java.lang.String)
+numComments=7
