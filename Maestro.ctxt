@@ -1,4 +1,5 @@
 #BlueJ class context
+<<<<<<< HEAD
 comment0.params=nombre\ apellido\ cedula\ telefono\ email\ direccion
 comment0.target=Maestro(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment1.params=
@@ -26,3 +27,12 @@ comment8.target=void\ setTelefono(java.lang.String)
 comment9.params=
 comment9.target=java.lang.String\ getEmail()
 numComments=13
+=======
+comment0.params=nombre\ apellido\ cc\ telefono\ tipoContrato
+comment0.target=Maestro(java.lang.String,\ java.lang.String,\ java.lang.String,\ long,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Maestro\r\n
+comment1.params=y
+comment1.target=int\ sampleMethod(int)
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+numComments=2
+>>>>>>> origin/master
