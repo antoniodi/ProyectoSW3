@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 import java.util.ArrayList;
-=======
 
->>>>>>> origin/master
 /**
  * Write a description of class Maestro here.
  * 
@@ -11,7 +8,6 @@ import java.util.ArrayList;
  */
 public class Maestro
 {
-<<<<<<< HEAD
     private String nombre;
     private String apellido;
     private String cedula;
@@ -77,15 +73,6 @@ public class Maestro
         this.direccion = direccion;
     }
     
-=======
-    // instance variables - replace the example below with your own
-    private String nombre;
-    private String apellido;
-    private String cc;
-    private String direccion;
-    private long telefono;
-    private String tipoContrato;
-    //private destreza destrezas;
     
 
     /**
@@ -108,5 +95,4 @@ public class Maestro
         // put your code here
         return 0;
     }
->>>>>>> origin/master
 }

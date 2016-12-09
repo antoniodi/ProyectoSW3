@@ -8,6 +8,8 @@ import java.util.*;
 public class Obra
 {
     // instance variables - replace the example below with your own
+    private Habilidad habilidad;
+    private Elemento elemento;
     private HashMap<Habilidad,Elemento> obra;
 
     /**

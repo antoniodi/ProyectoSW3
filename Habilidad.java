@@ -7,5 +7,5 @@
  */
 public enum Habilidad
 {
-    
+    PINTURA, PLOMERIA, ESTUCO, MANPOSTERIA, ENCHAPE
 }

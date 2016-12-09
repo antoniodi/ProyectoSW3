@@ -7,7 +7,6 @@
  */
 public class Comentario
 {
-<<<<<<< HEAD
     private long fecha;
     private String autor;
     private String descripcion;
@@ -18,51 +17,24 @@ public class Comentario
         this.descripcion = descripcion;
     }
 
-    public long getFecha() {
-        return fecha;
-    }
 
     public void setFecha(long fecha) {
         this.fecha = fecha;
-    }
-
-    public String getAutor() {
-        return autor;
     }
 
     public void setAutor(String autor) {
         this.autor = autor;
     }
 
-    public String getDescripcion() {
-        return descripcion;
-    }
-
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
     
-=======
-    // instance variables - replace the example below with your own
-    private long fecha;
-    private String autor;
-    private String descripcion;
+   
     /**
-     * Constructor for objects of class Comentario
-     */
-    public Comentario(String autor, String descripcion)
-    {
-        // initialise instance variables
-        this.autor = autor;
-        this.descripcion = descripcion;
-        //fecha =
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
+     * Este metodo devuelve la fehca en la que se realizo el comentario
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @return     la fecha en la que se realizo el comentario
      */
     public long getFecha()
     {
@@ -91,5 +63,5 @@ public class Comentario
         // put your code here
         return descripcion;
     }
->>>>>>> origin/master
+
 }

@@ -1,6 +1,12 @@
 #BlueJ class context
-comment0.params=
-comment0.target=int\ getValoracion()
-comment1.params=valoracion
-comment1.target=void\ setValoracion(int)
-numComments=2
+comment0.params=comentario\ valoracion
+comment0.target=Calificacion(Comentario,\ int)
+comment1.params=
+comment1.target=Comentario\ getComentario()
+comment2.params=comentario
+comment2.target=void\ setComentario(Comentario)
+comment3.params=
+comment3.target=int\ getValoracion()
+comment4.params=valoracion
+comment4.target=void\ setValoracion(int)
+numComments=5

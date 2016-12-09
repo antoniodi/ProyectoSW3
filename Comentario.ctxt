@@ -1,32 +1,19 @@
 #BlueJ class context
-<<<<<<< HEAD
 comment0.params=fecha\ autor\ descripcion
 comment0.target=Comentario(long,\ java.lang.String,\ java.lang.String)
-comment1.params=
-comment1.target=long\ getFecha()
-comment2.params=fecha
-comment2.target=void\ setFecha(long)
-comment3.params=
-comment3.target=java.lang.String\ getAutor()
-comment4.params=autor
-comment4.target=void\ setAutor(java.lang.String)
+comment1.params=fecha
+comment1.target=void\ setFecha(long)
+comment2.params=autor
+comment2.target=void\ setAutor(java.lang.String)
+comment3.params=descripcion
+comment3.target=void\ setDescripcion(java.lang.String)
+comment4.params=
+comment4.target=long\ getFecha()
+comment4.text=\r\n\ Este\ metodo\ devuelve\ la\ fehca\ en\ la\ que\ se\ realizo\ el\ comentario\r\n\ \r\n\ @return\ \ \ \ \ la\ fecha\ en\ la\ que\ se\ realizo\ el\ comentario\r\n
 comment5.params=
-comment5.target=java.lang.String\ getDescripcion()
-comment6.params=descripcion
-comment6.target=void\ setDescripcion(java.lang.String)
+comment5.target=java.lang.String\ getAutor()
+comment5.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment6.params=
+comment6.target=java.lang.String\ getDescripcion()
+comment6.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
 numComments=7
-=======
-comment0.params=autor\ descripcion
-comment0.target=Comentario(java.lang.String,\ java.lang.String)
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Comentario\r\n
-comment1.params=
-comment1.target=long\ getFecha()
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-comment2.params=
-comment2.target=java.lang.String\ getAutor()
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-comment3.params=
-comment3.target=java.lang.String\ getDescripcion()
-comment3.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-numComments=4
->>>>>>> origin/master
