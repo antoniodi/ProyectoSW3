@@ -1,12 +1,17 @@
 #BlueJ class context
 comment0.params=comentario\ valoracion
 comment0.target=Calificacion(Comentario,\ int)
+comment0.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ Calificaci\u00F3n\ con\ direcci\u00F3n\r\n\ @comentario\ es\ un\ comentario\ asignado\ a\ la\ calificaci\u00F3n\r\n\ @valoraci\u00F3n\ es\ un\ valor\ entre\ 0-5.\r\n
 comment1.params=
 comment1.target=Comentario\ getComentario()
+comment1.text=\r\n\ Regresa\ el\ comentario\ asignado\ a\ la\ calificaci\u00F3n\r\n
 comment2.params=comentario
 comment2.target=void\ setComentario(Comentario)
+comment2.text=\r\n\ Modifica\ el\ comentario\ asignado\ a\ la\ calificaci\u00F3n\r\n
 comment3.params=
 comment3.target=int\ getValoracion()
+comment3.text=\r\n\ Regresa\ la\ valoraci\u00F3n\ asignada\ a\ la\ calificaci\u00F3n\r\n
 comment4.params=valoracion
 comment4.target=void\ setValoracion(int)
+comment4.text=\r\n\ Modifica\ la\ valoraci\u00F3n\ asignada\ a\ la\ calificaci\u00F3n\r\n
 numComments=5

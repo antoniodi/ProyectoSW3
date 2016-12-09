@@ -11,56 +11,61 @@ public class Comentario
     private String autor;
     private String descripcion;
 
+    /**
+     * Constructor para objetos de la clase Comentario con dirección
+     * @fecha es la fecha en la que se realizó el comentario
+     * @autor es la persona que realizó el comentario
+     * @descripcion es el contenido del comentario
+     */
     public Comentario(long fecha, String autor, String descripcion) {
         this.fecha = fecha;
         this.autor = autor;
         this.descripcion = descripcion;
     }
 
-
+    /**
+     * Modifica la fecha en la que se realizó el comentario
+     */
     public void setFecha(long fecha) {
         this.fecha = fecha;
     }
 
+    /**
+     * Modifica la fecha en la que se realizó el comentario
+     */
     public void setAutor(String autor) {
         this.autor = autor;
     }
 
+    /**
+     * Modifica el contenido del comentario
+     */
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-    
-   
+      
     /**
-     * Este metodo devuelve la fehca en la que se realizo el comentario
+     * Este metodo devuelve la fecha en la que se realizo el comentario
      * 
      * @return     la fecha en la que se realizo el comentario
      */
     public long getFecha()
     {
-        // put your code here
         return fecha;
     }
+    
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Regresa el autor que realizó el comentario 
      */
     public String getAutor()
     {
-        // put your code here
         return autor;
     }
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Regresa el contenido del comentario 
      */
     public String getDescripcion()
     {
-        // put your code here
         return descripcion;
     }
 
