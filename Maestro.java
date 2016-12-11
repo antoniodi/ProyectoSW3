@@ -13,6 +13,7 @@ public class Maestro
     private String cedula;
     private String telefono;
     private String email;
+    private Municipio municipio;
     private String direccion;
     private ArrayList<Destreza> destrezas;
 
@@ -25,15 +26,25 @@ public class Maestro
      * @email es el correo electronico del maestro
      * @direccion es la dirección del domicilio del maestro
      */
-    public Maestro(String nombre, String apellido, String cedula, String telefono, String email, String direccion) {
+    public Maestro(String nombre, String apellido, String cedula, String telefono, String email, Municipio municipio, String direccion) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.cedula = cedula;
         this.telefono = telefono;
         this.email = email;
+        this.municipio = municipio;
         this.direccion = direccion;
     }
-
+   /**
+     * Esta funcion se encarga de agregar una destrezaRegresa el nombre del maestro
+     */
+    public void agregardestreza(String habilidaElegida){
+        
+         for (Habilidad habilidad: Habilidad.values() ) {
+            System.out.print(habilidad.toString()+"\t");   }
+            
+         destrezas.add(new Destreza());
+    }
     /**
      * Regresa el nombre del maestro
      */

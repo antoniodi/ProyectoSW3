@@ -13,6 +13,7 @@ public class Cliente
     private String cedula;
     private String telefono;
     private String email;
+    private Municipio municipio;
     private String direccion;
 
     /**
@@ -23,36 +24,18 @@ public class Cliente
      * @telefono es el telefono del cliente
      * @email es el correo electronico del cliente
      */
-    public Cliente(String nombre, String apellido, String cedula, String telefono, String email)
+    public Cliente(String nombre, String apellido, String cedula, String telefono, String email, Municipio municipio, String direccion)
     {
         // initialise instance variables
         this.nombre=nombre;
         this.apellido=apellido;
         this.cedula=cedula;
         this.telefono=telefono;
-        this.email=email;
-        this.direccion=null;
+        this.email = email;
+        this.municipio = municipio;
+        this.direccion = direccion;
     }
     
-    /**
-     * Constructor para objetos de la clase Cliente con dirección
-     * @nombre es el nombre del cliente
-     * @apellido es el apellido del cliente
-     * @cedula es la cedula del cliente
-     * @telefono es el telefono del cliente
-     * @email es el correo electronico del cliente
-     * @direccion es la dirección del domicilio del cliente
-     */
-    public Cliente(String nombre, String apellido, String cedula, String telefono, String email, String direccion)
-    {
-        // initialise instance variables
-        this.nombre=nombre;
-        this.apellido=apellido;
-        this.cedula=cedula;
-        this.telefono=telefono;
-        this.email=email;
-        this.direccion=direccion;
-    }
     
     /**
      * Regresa el nombre del cliente

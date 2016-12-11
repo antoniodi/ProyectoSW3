@@ -7,5 +7,5 @@
  */
 public enum Elemento
 {
-    PISCINA, PISO, TECHO
+    PISCINA, PISO, TECHO, PARED
 }

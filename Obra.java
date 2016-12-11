@@ -8,16 +8,18 @@ import java.util.*;
 public class Obra
 {
     // instance variables - replace the example below with your own
-    private Habilidad habilidad;
-    private Elemento elemento;
-    private HashMap<Habilidad,Elemento> obra;
+    private HashMap<Elemento,ArrayList<Habilidad>> obra;
+   
 
     /**
      * Constructor for objects of class Obra
      */
     public Obra()
-    {
-
+    {obra = new HashMap<>();
+     //obra.add(Elmento.PISCINA,)
+            
     }
-
+    /**
+     * Constructor for objects of class Obra
+     */
 }
