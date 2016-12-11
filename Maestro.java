@@ -43,7 +43,7 @@ public class Maestro
          for (Habilidad habilidad: Habilidad.values() ) {
             System.out.print(habilidad.toString()+"\t");   }
             
-         destrezas.add(new Destreza());
+         destrezas.add(new Destreza(0,));
     }
     /**
      * Regresa el nombre del maestro
