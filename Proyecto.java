@@ -21,14 +21,15 @@ public class Proyecto
 
     /**
      * Constructor para objetos de la clase Proyecto
-     * @cliente es el cliente que ha creado el proyecto
-     * @maestro es el maestro a cargo del proyecto
-     * @fechaDeInicio es la fecha en la que se comienza la ejecución del proyecto
-     * @fechaLimite es la fecha que se debe cumplir para culminar el proyecto
-     * @ubicación se refiere a donde se realiza el proyecto
-     * @obra es el tipo de obra en que se basa el proyecto
-     * @plazo es el tiempo que se tiene para tomar el proyecto
-     * @materiales son los materiales con los que se cuenta para realizar el proyecto
+     * @param
+     * 'cliente' es el cliente que ha creado el proyecto
+     * 'maestro' es el maestro a cargo del proyecto
+     * 'fechaDeInicio' es la fecha en la que se comienza la ejecución del proyecto
+     * 'fechaLimite' es la fecha que se debe cumplir para culminar el proyecto
+     * 'ubicacion' se refiere a donde se realiza el proyecto
+     * 'obra' es el tipo de obra en que se basa el proyecto
+     * 'plazo' es el tiempo que se tiene para tomar el proyecto
+     * 'materiales' son los materiales con los que se cuenta para realizar el proyecto
      */
     public Proyecto(Cliente cliente, Maestro maestro, long fechaDeInicio, long fechaLimite, String ubicacion, Obra obra, int plazo, String materiales) {
         this.cliente = cliente;
@@ -42,140 +43,170 @@ public class Proyecto
     }
 
     /**
-     * Regresa el cliente patrón del proyecto
+     * Método para conocer el cliente del proyecto
+     * @return devuelve un Cliente con el cliente del proyecto
      */
     public Cliente getCliente() {
         return cliente;
     }
 
     /**
-     * Modifica el cliente patrón del proyecto
+     * Método para modificar el cliente del proyecto
+     * @param
+     * 'cliente' es un Cliente con el cliente que se va a asignar al protecto
      */
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
     }
 
     /**
-     * Regresa el maestro a cargo del proyecto
+     * Método para conocer el maestro del proyecto
+     * @return devuelve un Maestro con el maestro del proyecto
      */
     public Maestro getMaestro() {
         return maestro;
     }
 
     /**
-     * Modifica el maestro a cargo del proyecto
+     * Método para modificar el maestro del proyecto
+     * @param
+     * 'maestro' es un Maestro con el maestro que se va a asignar al protecto
      */
     public void setMaestro(Maestro maestro) {
         this.maestro = maestro;
     }
 
     /**
-     * Regresa la fecha de inicio del proyecto
+     * Método para conocer la fecha de inicio del proyecto
+     * @return devuelve un long con la fecha de inicio del proyecto
      */
     public long getFechaDeInicio() {
         return fechaDeInicio;
     }
 
     /**
-     * Modifica la fecha de inicio del proyecto
+     * Método para modificar la fecha de inicio del proyecto
+     * @param
+     * 'fechaDeInicio' es un long con la fecha de inicio que se va a asignar al protecto
      */
     public void setFechaDeInicio(long fechaDeInicio) {
         this.fechaDeInicio = fechaDeInicio;
     }
 
     /**
-     * Regresa la fecha límite del proyecto
+     * Método para conocer la fecha limite del proyecto
+     * @return devuelve un long con la fecha limite del proyecto
      */
     public long getFechaLimite() {
         return fechaLimite;
     }
 
     /**
-     * Modifica la fecha límite del proyecto
+     * Método para modificar la fecha limite del proyecto
+     * @param
+     * 'fechaLimite' es un long con la fecha limite que se va a asignar al protecto
      */
     public void setFechaLimite(long fechaLimite) {
         this.fechaLimite = fechaLimite;
     }
 
     /**
-     * Regresa la ubicación del proyecto
+     * Método para conocer la ubicación del proyecto
+     * @return devuelve un String con la ubicación del proyecto
      */
     public String getUbicacion() {
         return ubicacion;
     }
 
     /**
-     * Modifica la ubicación del proyecto
+     * Método para modificar la ubicación del proyecto
+     * @param
+     * 'ubicacion' es un String con la ubicación que se va a asignar al protecto
      */
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
     }
 
     /**
-     * Regresa la obra base del proyecto
+     * Método para conocer la obra del proyecto
+     * @return devuelve un Obra con la obra del proyecto
      */
     public Obra getObra() {
         return obra;
     }
 
     /**
-     * Modifica la obra base del proyecto
+     * Método para modificar la obra del proyecto
+     * @param
+     * 'obra' es un Obra con la obra que se va a asignar al protecto
      */
     public void setObra(Obra obra) {
         this.obra = obra;
     }
 
     /**
-     * Regresa la descripción del proyecto
+     * Método para conocer la descripción del proyecto
+     * @return devuelve un String con la descripción del proyecto
      */
     public String getDescripcion() {
         return descripcion;
     }
 
     /**
-     * Modifica la descripción del proyecto
+     * Método para modificar la descripción del proyecto
+     * @param
+     * 'descripcion' es un String con la descripción que se va a asignar al protecto
      */
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
 
     /**
-     * Regresa la calificación del proyecto
+     * Método para conocer la calificación del proyecto
+     * @return devuelve un Calificacion con la calificación del proyecto
      */
     public Calificacion getCalificacion() {
         return calificacion;
     }
 
     /**
-     * Modifica la calificación del proyecto
+     * Método para modificar la calificación del proyecto
+     * @param
+     * 'calificacion' es un Calificacion con la calificación que se va a asignar al protecto
      */
     public void setCalificacion(Calificacion calificacion) {
         this.calificacion = calificacion;
     }
 
     /**
-     * Regresa el plazo con el que cuenta el proyecto
+     * Método para conocer el plazo del proyecto
+     * @return devuelve un int con el plazo del proyecto
      */
     public int getPlazo() {
         return plazo;
     }
 
     /**
-     * Modifica el plazo con el que cuenta el proyecto
+     * Método para modificar el plazo del proyecto
+     * @param
+     * 'plazo' es un int con el plazo que se va a asignar al protecto
      */
     public void setPlazo(int plazo) {
         this.plazo = plazo;
     }
 
     /**
-     * Regresa los materiales con los que cuenta el proyecto
+     * Método para conocer los materiales del proyecto
+     * @return devuelve un String con los materiales del proyecto
      */
     public String getMateriales() {
         return materiales;
     }
 
     /**
-     * Modifica los materiales con los que cuenta el proyecto
+     * Método para modificar los materiales del proyecto
+     * @param
+     * 'materiales' es un String con los materiales que se va a asignar al protecto
      */
     public void setMateriales(String materiales) {
         this.materiales = materiales;

@@ -13,8 +13,9 @@ public class Destreza
 
     /**
      * Constructor para objetos de la clase Destreza con dirección
-     * @promedio es el valor que mide que tan bueno es el maestro en dicha destreza
-     * @habilidad es en lo que se destaca el maestro en la destreza
+     * @param
+     * 'promedio' es el valor que mide que tan bueno es el maestro en dicha destreza
+     * 'habilidad' es en lo que se destaca el maestro en la destreza
      */
     public Destreza(float promedio, Habilidad habilidad) {
         this.promedio = promedio;
@@ -22,28 +23,34 @@ public class Destreza
     }
 
     /**
-     * Regresa el valor del promedio en calificaciones de la destreza
+     * Método para conocer el primedio de la destreza
+     * @return devuelve un float con el promedio de la destreza
      */
     public float getPromedio() {
         return promedio;
     }
 
     /**
-     * Modifica el valor del promedio en calificaciones de la destreza
+     * Método para modificar el promedio de la destreza
+     * @param
+     * 'promedio' es un float con el promedio que se va a asignar al maestro
      */
     public void setPromedio(float promedio) {
         this.promedio = promedio;
     }
 
     /**
-     * Regresa la habilidad asociada a la destreza
+     * Método para conocer la habilidad de la destreza
+     * @return devuelve un Habilidad con la habilidad de la destreza
      */
     public Habilidad getHabilidad() {
         return habilidad;
     }
 
     /**
-     * Modifica la habilidad asociada a la destreza
+     * Método para modificar la habilidad de la destreza
+     * @param
+     * 'habilidad' es un Habilidad con la habilidad que se va a asignar al maestro
      */
     public void setHabilidad(Habilidad habilidad) {
         this.habilidad = habilidad;

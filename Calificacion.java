@@ -11,9 +11,10 @@ public class Calificacion
     private int valoracion;
 
     /**
-     * Constructor para objetos de la clase Calificación con dirección
-     * @comentario es un comentario asignado a la calificación
-     * @valoración es un valor entre 0-5.
+     * Constructor para objetos de la clase Calificación
+     * @param
+     * 'comentario' es un comentario asignado a la calificación
+     * 'valoración' es un valor entre 0-5.
      */
     public Calificacion(Comentario comentario, int valoracion) {
         this.comentario = comentario;
@@ -21,28 +22,34 @@ public class Calificacion
     }
 
     /**
-     * Regresa el comentario asignado a la calificación
+     * Método para conocer el comentario de la calificación
+     * @return devuelve un Comentario con el comentario de la calificación
      */
     public Comentario getComentario() {
         return comentario;
     }
 
     /**
-     * Modifica el comentario asignado a la calificación
+     * Método para modificar el comentario de la calificacón
+     * @param
+     * 'comentario' es un Comentario con el comentario que se va a asignar a la calificación
      */
     public void setComentario(Comentario comentario) {
         this.comentario = comentario;
     }
 
     /**
-     * Regresa la valoración asignada a la calificación
+     * Método para conocer la valoración de la calificación
+     * @return devuelve un int con la valoración de la calificación
      */
     public int getValoracion() {
         return valoracion;
     }
 
     /**
-     * Modifica la valoración asignada a la calificación
+     * Método para modificar la valoración de la calificacón
+     * @param
+     * 'valoracion' es un int con la valoración que se va a asignar a la calificación
      */
     public void setValoracion(int valoracion) {
         this.valoracion = valoracion;

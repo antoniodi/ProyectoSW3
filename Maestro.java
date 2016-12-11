@@ -19,12 +19,13 @@ public class Maestro
 
     /**
      * Constructor para objetos de la clase Maestro
-     * @nombre es el nombre del maestro
-     * @apellido es el apellido del maestro
-     * @cedula es la cedula del maestro
-     * @telefono es el telefono del maestro
-     * @email es el correo electronico del maestro
-     * @direccion es la dirección del domicilio del maestro
+     * @param
+     * 'nombre' es el nombre del maestro
+     * 'apellido' es el apellido del maestro
+     * 'cedula' es la cedula del maestro
+     * 'telefono' es el telefono del maestro
+     * 'email' es el correo electronico del maestro
+     * 'direccion' es la dirección del domicilio del maestro
      */
     public Maestro(String nombre, String apellido, String cedula, String telefono, String email, Municipio municipio, String direccion) {
         this.nombre = nombre;
@@ -36,7 +37,9 @@ public class Maestro
         this.direccion = direccion;
     }
    /**
-     * Esta funcion se encarga de agregar una destrezaRegresa el nombre del maestro
+     * Esta funcion se encarga de agregar una destreza
+     * @param
+     * 'habilidaElegida' es la habilidad en la que el maestro se destaca en la destreza
      */
     public void agregardestreza(String habilidaElegida){
         
@@ -46,84 +49,102 @@ public class Maestro
          destrezas.add(new Destreza(0,));
     }
     /**
-     * Regresa el nombre del maestro
+     * Método para conocer el nombre del maestro
+     * @return devuelve un string con el nombre del maestro
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * Modifica el nombre del maestro
+     * Método para modificar el nombre del maestro
+     * @param
+     * 'nombre' es un String con el nombre que se va a asignar al maestro
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * Regresa el apellido del maestro
+     * Método para conocer el apellido del maestro
+     * @return devuelve un string con el apellido del maestro
      */
     public String getApellido() {
         return apellido;
     }
 
     /**
-     * Modifica el apellido del maestro
+     * Método para modificar el apellido del maestro
+     * @param
+     * 'apellido' es un String con el apellido que se va a asignar al maestro
      */
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
 
     /**
-     * Regresa la cedula del maestro
+     * Método para conocer la cedula del maestro
+     * @return devuelve un string con la cedula del maestro
      */
     public String getCedula() {
         return cedula;
     }
 
     /**
-     * Modifica la cedula del maestro
+     * Método para modificar la cedula del maestro
+     * @param
+     * 'cedula' es un String con la cedula que se va a asignar al maestro
      */
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
 
     /**
-     * Regresa el telefono del maestro
+     * Método para conocer el telefono del maestro
+     * @return devuelve un string con el telefono del maestro
      */
     public String getTelefono() {
         return telefono;
     }
 
     /**
-     * Modifica el telefono del maestro
+     * Método para modificar el telefono del maestro
+     * @param
+     * 'telefono' es un String con el telefono que se va a asignar al maestro
      */
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
 
     /**
-     * Regresa el correo electronico del maestro
+     * Método para conocer el Email del maestro
+     * @return devuelve un string con el Email del maestro
      */
     public String getEmail() {
         return email;
     }
 
     /**
-     * Modifica el correo electronico del maestro
+     * Método para modificar el Email del maestro
+     * @param
+     * 'email' es un String con el Email que se va a asignar al maestro
      */
     public void setEmail(String email) {
         this.email = email;
     }
 
     /**
-     * Regresa la dirección del domicilio del maestro
+     * Método para conocer la dirección del maestro
+     * @return devuelve un string con la dirección del maestro
      */
     public String getDireccion() {
         return direccion;
     }
 
     /**
-     * Modifica la dirección del domicilio del maestro
+     * Método para modificar la dirección del maestro
+     * @param
+     * 'dirección' es un String con la dirección que se va a asignar al maestro
      */
     public void setDireccion(String direccion) {
         this.direccion = direccion;

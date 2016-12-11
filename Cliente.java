@@ -17,12 +17,13 @@ public class Cliente
     private String direccion;
 
     /**
-     * Constructor para objetos de la clase Cliente sin dirección
-     * @nombre es el nombre del cliente
-     * @apellido es el apellido del cliente
-     * @cedula es la cedula del cliente
-     * @telefono es el telefono del cliente
-     * @email es el correo electronico del cliente
+     * Constructor para objetos de la clase Cliente con dirección
+     * @param
+     * 'nombre' es el nombre del cliente
+     * 'apellido' es el apellido del cliente
+     * 'cedula' es la cedula del cliente
+     * 'telefono' es el telefono del cliente
+     * 'email' es el correo electronico del cliente
      */
     public Cliente(String nombre, String apellido, String cedula, String telefono, String email, Municipio municipio, String direccion)
     {
@@ -38,7 +39,8 @@ public class Cliente
     
     
     /**
-     * Regresa el nombre del cliente
+     * Método para conocer el nombre del cliente
+     * @return devuelve un string con el nombre del cliente
      */
     public String getNombre()
     {
@@ -46,7 +48,8 @@ public class Cliente
     }
     
     /**
-     * Regresa el apellido del cliente
+     * Método para conocer el apellido del cliente
+     * @return devuelve un string con el apellido del cliente
      */
     public String getApellido()
     {
@@ -54,7 +57,8 @@ public class Cliente
     }
     
     /**
-     * Regresa la cedula del cliente
+     * Método para conocer la cedula del cliente
+     * @return devuelve un string con la cedula del cliente
      */
     public String getCedula()
     {
@@ -62,7 +66,8 @@ public class Cliente
     }
     
     /**
-     * Regresa el telefono del cliente
+     * Método para conocer el telefono del cliente
+     * @return devuelve un string con el telefono del cliente
      */
     public String getTelefono()
     {
@@ -70,7 +75,8 @@ public class Cliente
     }
     
     /**
-     * Regresa el email del cliente
+     * Método para conocer el Email del cliente
+     * @return devuelve un string con el Email del cliente
      */
     public String getEmail()
     {
@@ -78,7 +84,8 @@ public class Cliente
     }
     
     /**
-     * Regresa la dirección del cliente
+     * Método para conocer la dirección del cliente
+     * @return devuelve un string con la dirección del cliente
      */
     public String getDireccion()
     {
@@ -86,7 +93,9 @@ public class Cliente
     }
     
     /**
-     * Modifica el nombre del cliente
+     * Método para modificar el nombre del cliente
+     * @param
+     * 'nombre' es un String con el nombre que se va a asignar al cliente
      */
     public void setNombre(String nombre)
     {
@@ -94,7 +103,9 @@ public class Cliente
     }
     
     /**
-     * Modifica el apellido del cliente
+     * Método para modificar el apellido del cliente
+     * @param
+     * 'apellido' es un String con el apellido que se va a asignar al cliente
      */
     public void setApellido(String apellido)
     {
@@ -102,7 +113,9 @@ public class Cliente
     }
     
     /**
-     * Modifica la cedula del cliente
+     * Método para modificar la cedula del cliente
+     * @param
+     * 'cedula' es un String con la cedula que se va a asignar al cliente
      */
     public void setCedula(String cedula)
     {
@@ -110,7 +123,9 @@ public class Cliente
     }
     
     /**
-     * Modifica el telefono del cliente
+     * Método para modificar el telefono del cliente
+     * @param
+     * 'telefono' es un String con el telefono que se va a asignar al cliente
      */
     public void setTelefono(String telefono)
     {
@@ -118,7 +133,9 @@ public class Cliente
     }
     
     /**
-     * Modifica el email del cliente
+     * Método para modificar el email del cliente
+     * @param
+     * 'email' es un String con el email que se va a asignar al cliente
      */
     public void setEmail(String email)
     {
@@ -126,7 +143,9 @@ public class Cliente
     }
     
     /**
-     * Modifica la dirección del cliente
+     * Método para modificar la dirección del cliente
+     * @param
+     * 'direccion' es un String con la direccion que se va a asignar al cliente
      */
     public void setDireccion(String direccion)
     {
