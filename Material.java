@@ -12,7 +12,10 @@ public class Material
     private int cantidad;
 
     /**
-     * Constructor for objects of class Material
+     * Constructor para objetos de la clase Material
+     * @param
+     * 'nombre' es el nombre del material
+     * 'cantidad' es el número de unidades del material
      */
     public Material(String nombre, int cantidad)
     {
@@ -22,10 +25,8 @@ public class Material
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Método para conocer el nombre del material
+     * @return devuelve un string con el nombre del material
      */
     public String getNombre()
     {
@@ -33,17 +34,31 @@ public class Material
         return nombre;
     }
     
+    /**
+     * Método para conocer la cantidad del material
+     * @return devuelve un string con la cantidad del material
+     */
     public int getCantidad()
     {
         // put your code here
         return cantidad;
     }
     
+    /**
+     * Método para modificar el nombre del material
+     * @param
+     * 'nombre' es un String con el nombre que se va a asignar al material
+     */
     public void setNombre(String nombre)
     {
         this.nombre=nombre;
     }
     
+    /**
+     * Método para modificar la cantidad del material
+     * @param
+     * 'cantidad' es un int con la nueva cantidad que se va a asignar al material
+     */
     public void setCantidad(int cantidad)
     {
         this.cantidad=cantidad;

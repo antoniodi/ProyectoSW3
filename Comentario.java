@@ -12,10 +12,11 @@ public class Comentario
     private String descripcion;
 
     /**
-     * Constructor para objetos de la clase Comentario con dirección
-     * @fecha es la fecha en la que se realizó el comentario
-     * @autor es la persona que realizó el comentario
-     * @descripcion es el contenido del comentario
+     * Constructor para objetos de la clase Comentario
+     * @param
+     * 'fecha' es la fecha en la que se realizó el comentario
+     * 'autor' es la persona que realizó el comentario
+     * 'descripcion' es el contenido del comentario
      */
     public Comentario(long fecha, String autor, String descripcion) {
         this.fecha = fecha;
@@ -24,21 +25,27 @@ public class Comentario
     }
 
     /**
-     * Modifica la fecha en la que se realizó el comentario
+     * Método para modificar la fecha del Comentario
+     * @param
+     * 'fecha' es un long con la fecha que se va a asignar al Comentario
      */
     public void setFecha(long fecha) {
         this.fecha = fecha;
     }
 
     /**
-     * Modifica la fecha en la que se realizó el comentario
+     * Método para modificar el autor del Comentario
+     * @param
+     * 'autor' es un String con el autor que se va a asignar al Comentario
      */
     public void setAutor(String autor) {
         this.autor = autor;
     }
 
     /**
-     * Modifica el contenido del comentario
+     * Método para modificar la descripción del Comentario
+     * @param
+     * 'descripcion' es un String con la nueva descripcion que se va a asignar al Comentario
      */
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
@@ -55,14 +62,18 @@ public class Comentario
     }
     
     /**
-     * Regresa el autor que realizó el comentario 
+     * Este metodo devuelve el autor que realizo el comentario
+     * 
+     * @return     el autor que realizó el comentario
      */
     public String getAutor()
     {
         return autor;
     }
     /**
-     * Regresa el contenido del comentario 
+     * Este metodo devuelve la descripcion del comentario
+     * 
+     * @return     la descripcion del comentario
      */
     public String getDescripcion()
     {

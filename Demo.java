@@ -30,4 +30,10 @@ public class Demo
         cliente = new Cliente("Jaime","Castro","1234567","647568967","Jaime.Castro@hotmail.com",Municipio.BUCARAMANGA,"Calle 103");
         return cliente;
     }
+    
+    public Maestro sampleMethod2()
+    {
+        maestro = new Maestro("Pedro", "Martinez", "34566367", "5745667444", "pedro_martinez@gmail.com", Municipio.BUCARAMANGA, "Carrera 14");
+    }
 }
+
