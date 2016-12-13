@@ -17,8 +17,8 @@ public class Destreza
      * 'promedio' es el valor que mide que tan bueno es el maestro en dicha destreza
      * 'habilidad' es en lo que se destaca el maestro en la destreza
      */
-    public Destreza(float promedio, Habilidad habilidad) {
-        this.promedio = promedio;
+    public Destreza( Habilidad habilidad) {
+        this.promedio = 0;
         this.habilidad = habilidad;
     }
 

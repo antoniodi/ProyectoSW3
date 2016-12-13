@@ -1,14 +1,17 @@
 #BlueJ class context
 comment0.params=nombre\ cantidad
 comment0.target=Material(java.lang.String,\ int)
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Material\r\n
+comment0.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ Material\r\n\ @param\r\n\ 'nombre'\ es\ el\ nombre\ del\ material\r\n\ 'cantidad'\ es\ el\ n\u00FAmero\ de\ unidades\ del\ material\r\n
 comment1.params=
 comment1.target=java.lang.String\ getNombre()
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment1.text=\r\n\ M\u00E9todo\ para\ conocer\ el\ nombre\ del\ material\r\n\ @return\ devuelve\ un\ string\ con\ el\ nombre\ del\ material\r\n
 comment2.params=
 comment2.target=int\ getCantidad()
+comment2.text=\r\n\ M\u00E9todo\ para\ conocer\ la\ cantidad\ del\ material\r\n\ @return\ devuelve\ un\ string\ con\ la\ cantidad\ del\ material\r\n
 comment3.params=nombre
 comment3.target=void\ setNombre(java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ para\ modificar\ el\ nombre\ del\ material\r\n\ @param\r\n\ 'nombre'\ es\ un\ String\ con\ el\ nombre\ que\ se\ va\ a\ asignar\ al\ material\r\n
 comment4.params=cantidad
 comment4.target=void\ setCantidad(int)
+comment4.text=\r\n\ M\u00E9todo\ para\ modificar\ la\ cantidad\ del\ material\r\n\ @param\r\n\ 'cantidad'\ es\ un\ int\ con\ la\ nueva\ cantidad\ que\ se\ va\ a\ asignar\ al\ material\r\n
 numComments=5

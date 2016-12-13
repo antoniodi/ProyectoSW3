@@ -41,13 +41,11 @@ public class Maestro
      * @param
      * 'habilidaElegida' es la habilidad en la que el maestro se destaca en la destreza
      */
-    public void agregardestreza(String habilidaElegida){
-        
-         for (Habilidad habilidad: Habilidad.values() ) {
-            System.out.print(habilidad.toString()+"\t");   }
-            
-         destrezas.add(new Destreza(0,));
+    public void agregardestreza(Habilidad habilidaElegida){           
+         destrezas.add(new Destreza(habilidaElegida));
     }
+    
+    
     /**
      * Método para conocer el nombre del maestro
      * @return devuelve un string con el nombre del maestro
