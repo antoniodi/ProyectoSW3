@@ -39,9 +39,7 @@ public class ClasesTest
     }
     
     /**
-     * Tears down the test fixture.
-     *
-     * Called after every test case method.
+     * verificamos los metodos del cliente que esten funconando correctamente
      */
     @Test
     public void verificarInfoCliente(){
@@ -53,6 +51,9 @@ public class ClasesTest
     assertEquals(Municipio.BUCARAMANGA, cliente1.getMunicipio());
     }
 
+    /**
+     * verificamos los metodos del mestro que esten funconando correctamente
+     */
     @Test
     public void verificarInfoMestro()
     {Maestro maestro1 = new Maestro("Pedro", "Martinez", "34566367", "5745667444", "pedro_martinez@gmail.com", Municipio.BUCARAMANGA, "Carrera 14");
@@ -61,6 +62,17 @@ public class ClasesTest
         assertEquals("34566367", maestro1.getCedula());
         assertEquals("Carrera 14", maestro1.getDireccion());
         assertEquals(Municipio.BUCARAMANGA, maestro1.getMunicipio());
+    }
+    
+    /**
+     * verificamos los metodos de la clase cometario esten funconando correctamente
+     */
+    @Test
+    public void verificarMetodosComentario()
+    {Comentario comentario = new Comentario("Jaime", "Eñ precio es muy alto");
+      assertEquals("Jaime", comentario.getAutor());
+      assertEquals("Eñ precio es muy alto", comentario.getDescripcion());
+        
     }
 }
 

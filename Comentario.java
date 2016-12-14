@@ -1,4 +1,6 @@
-
+import java.util.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 /**
  * Write a description of class Comentario here.
  * 
@@ -7,7 +9,7 @@
  */
 public class Comentario
 {
-    private long fecha;
+    private Date fecha;
     private String autor;
     private String descripcion;
 
@@ -18,20 +20,12 @@ public class Comentario
      * 'autor' es la persona que realizó el comentario
      * 'descripcion' es el contenido del comentario
      */
-    public Comentario(long fecha, String autor, String descripcion) {
-        this.fecha = fecha;
+    public Comentario(String autor, String descripcion) {
+        this.fecha = new Date();
         this.autor = autor;
         this.descripcion = descripcion;
     }
 
-    /**
-     * Método para modificar la fecha del Comentario
-     * @param
-     * 'fecha' es un long con la fecha que se va a asignar al Comentario
-     */
-    public void setFecha(long fecha) {
-        this.fecha = fecha;
-    }
 
     /**
      * Método para modificar el autor del Comentario
@@ -56,9 +50,10 @@ public class Comentario
      * 
      * @return     la fecha en la que se realizo el comentario
      */
-    public long getFecha()
-    {
-        return fecha;
+    public String getFecha()
+    {DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        System.out.println(dateFormat.format(fecha));
+        return dateFormat.format(this.fecha);
     }
     
     /**
