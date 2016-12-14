@@ -37,6 +37,14 @@ public class Cliente
         this.direccion = direccion;
     }
     
+     /**
+     * Método para conocer el municipo donde esta ubicado el cliente
+     * @return devuelve un enum de tipo Municipio con el municipio del cliente
+     */
+    public Municipio getMunicipio()
+    {
+        return municipio;
+    }
     
     /**
      * Método para conocer el nombre del cliente

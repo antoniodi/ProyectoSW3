@@ -44,7 +44,15 @@ public class Maestro
     public void agregardestreza(Habilidad habilidaElegida){           
          destrezas.add(new Destreza(habilidaElegida));
     }
-    
+     
+     /**
+     * Método para conocer el municipo donde esta ubicado el Mestro
+     * @return devuelve un enum de tipo Municipio con el municipio del Maestro
+     */
+    public Municipio getMunicipio()
+    {
+        return municipio;
+    }
     
     /**
      * Método para conocer el nombre del maestro
